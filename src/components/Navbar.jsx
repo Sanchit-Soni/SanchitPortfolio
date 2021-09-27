@@ -11,7 +11,7 @@ const Navbar = () => {
            <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-            SanchitSoni
+            SS.
            
           </NavLink>
 
