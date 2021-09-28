@@ -1,0 +1,42 @@
+.xyz {
+  padding: 20px;
+}
+.row-pr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cards {
+  background-color: #8753f9;
+  margin-top: 40px;
+  padding: 20px;
+  height: 300px;
+  width: 600px;
+  border-radius: 20px;
+}
+.card-area {
+  height: 300px;
+  width: 600px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    background-color: #8753f9;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+  }
+  .card-area {
+    height: 300px;
+    width: 300px;
+  }
+}

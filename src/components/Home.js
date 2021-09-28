@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Typed from "react-typed";
 import Particles from "react-particles-js";
 import "../CSS/home.css";
 import About from "./About";
 import { motion } from "framer-motion";
+import Loading from "./Loading";
 
 const Home = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 1500);
+  }, [loading]);
+
+  if (loading) return <Loading />;
+
   return (
     <>
       <div className="home-container">
@@ -116,7 +125,7 @@ const Home = () => {
         /> */}
 
         <div className="row-name ">
-          <div className="col-name">
+          <div className="col-name swing">
             {/* <div className="col-name gradient-border"> */}
             <h1>
               Hey! I'm Sanchit<span className="wave">👋</span>

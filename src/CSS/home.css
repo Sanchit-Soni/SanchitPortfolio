@@ -6,6 +6,7 @@
 }
 
 .row-name {
+  z-index: 999;
   display: flex;
   justify-content: space-around;
   padding: 40px;
@@ -83,13 +84,13 @@
 .btn-1 {
   cursor: pointer;
   padding: 5px;
-  background-color: #8739f9;
+  background-color: #000000;
   color: white;
   font-size: 15px;
   width: 180px;
   height: 50px;
   border-radius: 10px;
-  border: 3px solid white;
+  border: 3px solid #8739f9;
   margin-top: 10px;
 }
 .btn-2 {
@@ -102,7 +103,7 @@
   transition: 0.3s ease-in;
 }
 
-/* .gradient-border {
+.gradient-border {
   --borderWidth: 5px;
   background: #1d1f20;
   position: relative;
@@ -142,7 +143,7 @@
   100% {
     background-position: 0% 50%;
   }
-} */
+}
 
 @media screen and (max-width: 768px) {
   .text {
@@ -165,4 +166,64 @@
   .row-name > div > p {
     font-size: 10px;
   }
+}
+
+/* swing */
+@-webkit-keyframes swing {
+  15% {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+  30% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  50% {
+    -webkit-transform: translateY(3px);
+    transform: translateY(3px);
+  }
+  65% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+  80% {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes swing {
+  15% {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+  30% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  50% {
+    -webkit-transform: translateY(3px);
+    transform: translateY(3px);
+  }
+  65% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+  80% {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.swing:hover {
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
