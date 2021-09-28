@@ -7,10 +7,11 @@ import Project from "./components/Project";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import React from "react";
+// import LocomotiveScroll from "locomotive-scroll";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" data-scroll-container>
       <Router>
         <Navbar />
 

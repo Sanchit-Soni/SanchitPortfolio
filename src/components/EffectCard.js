@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import ParallaxCard from "react-parallax-card";
 import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
-import { Card } from "react-bootstrap";
 
 const EffectCard = ({ data }) => {
   const [open, setOpen] = useState(false);
@@ -11,6 +9,7 @@ const EffectCard = ({ data }) => {
   const onCloseModal = () => setOpen(false);
   return (
     <>
+      {/* <Tilt className="Tilt cursor-pointer" options={{ max: 15 }}> */}
       <div
         className="card-area"
         onClick={onOpenModal}
@@ -26,6 +25,7 @@ const EffectCard = ({ data }) => {
           dbahj bdjhasb
         </p>
       </div>
+      {/* </Tilt> */}
       <div>
         <Modal open={open} onClose={onCloseModal} center>
           <h2>{data.name}</h2>

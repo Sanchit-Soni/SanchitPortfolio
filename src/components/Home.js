@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import Typed from "react-typed";
 import Particles from "react-particles-js";
 import "../CSS/home.css";
-import About from "./About";
-import { motion } from "framer-motion";
+// import About from "./About";
 import Loading from "./Loading";
+import Tilt from "react-tilt";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <>
       <div className="home-container">
-        <Particles
+        {/* <Particles
           params={{
             particles: {
               number: {
@@ -33,8 +33,8 @@ const Home = () => {
                 opacity: 0.2,
               },
               move: {
-                direction: "right",
-                speed: 0.05,
+                direction: "up",
+                speed: 0.25,
               },
               size: {
                 value: 1,
@@ -62,13 +62,13 @@ const Home = () => {
             },
             retina_detect: true,
           }}
-        />
+        /> */}
 
-        {/* <Particles
+        <Particles
           params={{
             particles: {
               number: {
-                value: 15,
+                value: 25,
                 density: {
                   enable: true,
                   value_area: 600,
@@ -78,7 +78,7 @@ const Home = () => {
                 enable: false,
               },
               move: {
-                speed: 2,
+                speed: 4,
                 out_mode: "out",
               },
               shape: {
@@ -90,8 +90,8 @@ const Home = () => {
                     width: 27,
                   },
                   {
-                    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
-                    height: 20,
+                    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Visual_Studio_Code_1.18_icon.svg/1028px-Visual_Studio_Code_1.18_icon.svg.png",
+                    height: 23,
                     width: 27,
                   },
                   {
@@ -122,37 +122,41 @@ const Home = () => {
             },
             retina_detect: false,
           }}
-        /> */}
-
+        />
         <div className="row-name ">
-          <div className="col-name swing">
-            {/* <div className="col-name gradient-border"> */}
-            <h1>
-              Hey! I'm Sanchit<span className="wave">👋</span>
-            </h1>
+          <Tilt className="Tilt cursor-pointer" options={{ max: 15 }}>
+            <div className="col-name swing">
+              {/* <div className="col-name gradient-border"> */}
+              <h3>
+                Hey! I'm Sanchit<span className="wave">👋</span>
+              </h3>
 
-            <Typed
-              className="text"
-              strings={["A Developer", "A Gamer", "A Student"]}
-              typeSpeed={70}
-              backSpeed={90}
-              loop
-            ></Typed>
-            <div className="btn">
-              <button className="btn-1">
-                <h4>Know More</h4>
-              </button>
-              <button className="btn-1 btn-2">
-                <h4>Download Resume</h4>
-              </button>
+              <Typed
+                className="text"
+                strings={["A Developer", "A Gamer", "A Student"]}
+                typeSpeed={70}
+                backSpeed={90}
+                loop
+              ></Typed>
+              <div className="btn">
+                <Tilt className="Tilt cursor-pointer" options={{ max: 15 }}>
+                  <button className="btn-1">
+                    <h4>Know More</h4>
+                  </button>
+
+                  <button className="btn-1 btn-2">
+                    <h4>Download Resume</h4>
+                  </button>
+                </Tilt>
+              </div>
             </div>
-          </div>
+          </Tilt>
           {/* <div className="col2-name"></div> */}
         </div>
       </div>
-      <section>
+      {/* <section>
         <About />
-      </section>
+      </section> */}
     </>
   );
 };

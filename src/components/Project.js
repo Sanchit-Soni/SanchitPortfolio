@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 
-import { Row, Col, Card } from "react-bootstrap";
 import EffectCard from "./EffectCard";
 import "../CSS/project.css";
+import Tilt from "react-tilt";
 
 const Project = () => {
   const data = [
@@ -16,6 +16,13 @@ const Project = () => {
 
   return (
     <div>
+      <section>
+        <center>
+          <h1>EXPLORE MY ARTS</h1>
+          <h1>Scroll</h1>
+          <h1>up</h1>
+        </center>
+      </section>
       <br></br>
       <center>
         <h1>Projects</h1>
@@ -24,16 +31,20 @@ const Project = () => {
       <center>
         <h1>Some of My Great Work Samples are:</h1>
       </center>
-      <div className="xyz">
+      <div className="xyz" data-scroll-section>
         <div className="row-pr">
           {data.map((des, index) => (
             <div key={index}>
-              <div className="cards p-0">
-                <EffectCard data={des} />
-              </div>
+              <Tilt className="Tilt cursor-pointer" options={{ max: 20 }}>
+                <div className="cards p-0">
+                  <EffectCard data={des} />
+                </div>
+              </Tilt>
             </div>
           ))}
         </div>
+        <br></br>
+        <br></br>
       </div>
     </div>
   );
