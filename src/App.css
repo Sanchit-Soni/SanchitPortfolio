@@ -1,13 +1,13 @@
 /* .App {
   text-align: center;
   background-color: #8739f9;
-  /* background-color: #c651cd; */
+  background-color: #c651cd;
 /* background-color: #c651cd; */
 
 * {
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 body {

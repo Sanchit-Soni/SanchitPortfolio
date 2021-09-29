@@ -1,15 +1,15 @@
 .navbar {
   /* background-color: #8739f9; */
   background-color: #000000;
-  height: 65px;
+  height: 85px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
   position: sticky;
   top: 0;
-  z-index: 20;
-  border-bottom: 3px solid #fff;
+  z-index: 9;
+  /* border-bottom: 5px solid #fff; */
 }
 
 .nav-container {
@@ -22,7 +22,7 @@
 }
 
 .nav-logo {
-  color: #8739f9;
+  color: #fff;
   align-items: center;
   margin-left: 20px;
   cursor: pointer;
@@ -84,7 +84,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-
+    height: 100vh;
     /* border-top: 1pxsolid #fff; */
     position: absolute;
     top: 80px;

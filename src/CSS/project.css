@@ -28,7 +28,10 @@
 }
 
 section {
-  height: 100vh;
+  height: 150vh;
+}
+.exp-text {
+  font-size: 150px;
 }
 
 @media screen and (max-width: 768px) {
@@ -42,5 +45,8 @@ section {
   .card-area {
     height: 280px;
     width: 280px;
+  }
+  .exp-text {
+    font-size: 60px;
   }
 }

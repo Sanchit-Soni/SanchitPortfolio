@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import EffectCard from "./EffectCard";
 import "../CSS/project.css";
 import Tilt from "react-tilt";
+import locomotiveScroll from "locomotive-scroll";
 
 const Project = () => {
+  const scrollRef = React.createRef();
+
+  useEffect(() => {
+    const scroll = new locomotiveScroll({
+      el: scrollRef.current,
+      smooth: true,
+    });
+  });
   const data = [
     { id: 0, name: "ProShop" },
     { id: 1, name: "xyz" },
@@ -15,23 +24,32 @@ const Project = () => {
   ];
 
   return (
-    <div>
-      <section>
+    <div ref={scrollRef}>
+      <section data-scroll-speed="1" data-scroll-position="top">
         <center>
-          <h1>EXPLORE MY ARTS</h1>
+          <p className="exp-text">EXPLORE MY WORKS</p>
+
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
           <h1>Scroll</h1>
           <h1>up</h1>
         </center>
       </section>
+
       <br></br>
       <center>
-        <h1>Projects</h1>
+        <p
+          data-scroll
+          data-scroll-speed="1"
+          data-scroll-position="top"
+          data-scroll-direction="horizontal"
+        >
+          Some of My Great Work Samples are:
+        </p>
       </center>
-      <br></br>
-      <center>
-        <h1>Some of My Great Work Samples are:</h1>
-      </center>
-      <div className="xyz" data-scroll-section>
+      <div className="xyz">
         <div className="row-pr">
           {data.map((des, index) => (
             <div key={index}>
@@ -43,9 +61,13 @@ const Project = () => {
             </div>
           ))}
         </div>
-        <br></br>
-        <br></br>
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <p className="exp-text">WILL ADD MORE WORK SAMPLES SOON..</p>
     </div>
   );
 };

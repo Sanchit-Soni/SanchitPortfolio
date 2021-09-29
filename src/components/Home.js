@@ -5,12 +5,13 @@ import "../CSS/home.css";
 // import About from "./About";
 import Loading from "./Loading";
 import Tilt from "react-tilt";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 1500);
+    setTimeout(() => setLoading(false), 1750);
   }, [loading]);
 
   if (loading) return <Loading />;
@@ -68,7 +69,7 @@ const Home = () => {
           params={{
             particles: {
               number: {
-                value: 25,
+                value: 20,
                 density: {
                   enable: true,
                   value_area: 600,
@@ -95,9 +96,9 @@ const Home = () => {
                     width: 27,
                   },
                   {
-                    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
+                    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png",
                     height: 20,
-                    width: 27,
+                    width: 20,
                   },
                   {
                     src: "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg",
@@ -140,9 +141,11 @@ const Home = () => {
               ></Typed>
               <div className="btn">
                 <Tilt className="Tilt cursor-pointer" options={{ max: 15 }}>
-                  <button className="btn-1">
-                    <h4>Know More</h4>
-                  </button>
+                  <Link to="/about">
+                    <button className="btn-1">
+                      <h4>Know More</h4>
+                    </button>
+                  </Link>
 
                   <button className="btn-1 btn-2">
                     <h4>Download Resume</h4>
