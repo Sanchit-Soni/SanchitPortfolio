@@ -46,6 +46,10 @@ section {
   /* height: auto; */
 }
 
+.disabled-link {
+  text-decoration: none;
+  color: #fff;
+}
 @media screen and (max-width: 768px) {
   .cards {
     background-color: #8753f9;

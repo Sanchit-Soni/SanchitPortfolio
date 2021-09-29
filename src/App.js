@@ -8,6 +8,7 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import React from "react";
 import AnimatedCursor from "react-animated-cursor";
+import EachProject from "./components/EachProject";
 // import Sidebar from "./components/Sidebar";
 // import LocomotiveScroll from "locomotive-scroll";
 
@@ -31,6 +32,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/project" component={Project} />
+            <Route exact path="/project/:id" component={EachProject} />
             <Route exact path="/experience" component={Experience} />
             <Route exact path="/contact" component={Contact} />
           </Switch>
