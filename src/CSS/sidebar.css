@@ -1,0 +1,7 @@
+.sidebar-container {
+  /* margin-top: 20%; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

@@ -28,7 +28,9 @@ const EffectCard = ({ data }) => {
       {/* </Tilt> */}
       <div>
         <Modal open={open} onClose={onCloseModal} center>
-          <h2>{data.name}</h2>
+          <div className="modal">
+            <h2>{data.name}</h2>
+          </div>
         </Modal>
       </div>
     </>

@@ -8,6 +8,7 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import React from "react";
 import AnimatedCursor from "react-animated-cursor";
+// import Sidebar from "./components/Sidebar";
 // import LocomotiveScroll from "locomotive-scroll";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       />
       <Router>
         <Navbar />
+        {/* <Sidebar /> */}
 
         <div className="pages">
           <Switch>

@@ -34,6 +34,11 @@ section {
   font-size: 150px;
 }
 
+.modal {
+  height: 500px;
+  width: 400px;
+}
+
 @media screen and (max-width: 768px) {
   .cards {
     background-color: #8753f9;

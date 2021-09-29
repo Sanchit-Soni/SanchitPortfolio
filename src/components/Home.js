@@ -64,7 +64,61 @@ const Home = () => {
             retina_detect: true,
           }}
         /> */}
+        <Particles
+          params={{
+            particles: {
+              number: {
+                value: 200,
+                density: {
+                  enable: false,
+                },
+              },
+              size: {
+                value: 4,
+                random: true,
+                anim: {
+                  speed: 4,
+                  size_min: 0.3,
+                },
+              },
+              line_linked: {
+                enable: false,
+              },
+              move: {
+                random: true,
+                speed: 1,
+                direction: "top",
+                out_mode: "out",
+              },
+            },
+            interactivity: {
+              events: {
+                onhover: {
+                  enable: true,
+                  mode: "bubble",
+                },
+                onclick: {
+                  enable: false,
+                  mode: "repulse",
+                },
+              },
+              modes: {
+                bubble: {
+                  distance: 250,
+                  duration: 2,
+                  size: 0,
+                  opacity: 0,
+                },
+                repulse: {
+                  distance: 400,
+                  duration: 4,
+                },
+              },
+            },
+          }}
+        />
 
+        {/* 
         <Particles
           params={{
             particles: {
@@ -123,14 +177,14 @@ const Home = () => {
             },
             retina_detect: false,
           }}
-        />
+        /> */}
         <div className="row-name ">
           <Tilt className="Tilt cursor-pointer" options={{ max: 15 }}>
             <div className="col-name swing">
               {/* <div className="col-name gradient-border"> */}
-              <h3>
+              <p>
                 Hey! I'm Sanchit<span className="wave">👋</span>
-              </h3>
+              </p>
 
               <Typed
                 className="text"
