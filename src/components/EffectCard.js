@@ -4,6 +4,7 @@ import "react-responsive-modal/styles.css";
 import { Link } from "react-router-dom";
 
 const EffectCard = ({ data }) => {
+  // console.log(data);
   // const [open, setOpen] = useState(false);
 
   // const onOpenModal = () => setOpen(true);
@@ -24,6 +25,7 @@ const EffectCard = ({ data }) => {
           state: {
             id: data.id,
             name: data.name,
+            img: data.img,
           },
         }}
       >
@@ -34,10 +36,11 @@ const EffectCard = ({ data }) => {
           // label="Label (optional)"
         >
           <h1>{data.name}</h1>
-
+          {/* <img alt="sad" className="img-card" src={data.img} /> */}
           <p>
-            djisahdjsahd jasnd jas hdjas bdkjsab hbd hsabd hjasb hjasbd hjbashj
-            dbahj bdjhasb
+            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
+            in laying out print, graphic or web designs. The passage is
+            attributed to an unknown ...
           </p>
         </div>
         {/* </Tilt> */}

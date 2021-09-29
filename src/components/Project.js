@@ -2,6 +2,9 @@ import React, { useEffect } from "react";
 import EffectCard from "./EffectCard";
 import "../CSS/project.css";
 import Tilt from "react-tilt";
+import ProShop from "../images/proshop.png";
+import Portfolio from "../images/portfolio.png";
+import Covidsarthi from "../images/covidsarthi.png";
 // import locomotiveScroll from "locomotive-scroll";
 
 const Project = () => {
@@ -14,12 +17,12 @@ const Project = () => {
     // });
   });
   const data = [
-    { id: 0, name: "ProShop", link: "" },
-    { id: 1, name: "EZNews", link: "" },
-    { id: 2, name: "MindSpace", link: "" },
-    { id: 3, name: "Instagram Clone", link: "" },
-    { id: 4, name: "Covid19 tracker", link: "" },
-    { id: 5, name: "Portfolio", link: "" },
+    { id: 0, name: "ProShop", link: "", img: ProShop },
+    { id: 1, name: "EZNews", link: "", img: Portfolio },
+    { id: 2, name: "MindSpace", link: "", img: Portfolio },
+    { id: 3, name: "Instagram Clone", link: "", img: ProShop },
+    { id: 4, name: "Covid Sarthi", link: "", img: Covidsarthi },
+    { id: 5, name: "Portfolio", link: "", img: ProShop },
   ];
 
   return (

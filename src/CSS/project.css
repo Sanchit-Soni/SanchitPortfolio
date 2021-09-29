@@ -12,6 +12,15 @@
   flex-direction: row;
   justify-content: space-around;
 }
+.img-card {
+  height: 300px;
+  width: 550px;
+  border-radius: 20px;
+}
+.img-card:hover {
+  box-shadow: 0px 0px 15px 15px #8753f9;
+  transition: 0.7s ease;
+}
 
 .cards {
   background-color: #8753f9;
@@ -22,9 +31,9 @@
   border-radius: 20px;
 }
 .card-area {
-  /* height: 300px;
-  width: 500px; */
-  padding: 10px;
+  height: 300px;
+  width: 500px;
+  /* padding: 10px; */
 }
 
 section {
@@ -50,7 +59,37 @@ section {
   text-decoration: none;
   color: #fff;
 }
-@media screen and (max-width: 768px) {
+
+.project-container {
+  padding: 40px;
+}
+
+.project-row {
+  margin-top: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+}
+.project-col1 {
+  /* background-color: #8753f9; */
+
+  width: 350px;
+}
+.project-text {
+  font-size: 60px;
+  font-weight: bolder;
+}
+.project-desc {
+  text-align: justify;
+}
+
+@media screen and (max-width: 900px) {
+  .img-card {
+    height: 280px;
+    width: 280px;
+    border-radius: 20px;
+  }
   .cards {
     background-color: #8753f9;
     margin-top: 40px;
@@ -72,5 +111,25 @@ section {
   .react-responsive-modal-modal {
     margin-top: 40%;
     height: auto;
+  }
+
+  .project-row {
+    margin: 0 auto;
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .project-col1 {
+    /* background-color: #8753f9; */
+
+    width: 300px;
+  }
+  .project-col2 {
+    margin-top: 100px;
+  }
+  .img-card {
+    height: 200px;
+    width: 280px;
   }
 }
