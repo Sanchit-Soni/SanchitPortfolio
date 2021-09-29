@@ -14,12 +14,12 @@ const Project = () => {
     // });
   });
   const data = [
-    { id: 0, name: "ProShop" },
-    { id: 1, name: "xyz" },
-    { id: 2, name: "sadj" },
-    { id: 3, name: "sdj" },
-    { id: 4, name: "sdj" },
-    { id: 5, name: "sdj" },
+    { id: 0, name: "ProShop", link: "" },
+    { id: 1, name: "EZNews", link: "" },
+    { id: 2, name: "MindSpace", link: "" },
+    { id: 3, name: "Instagram Clone", link: "" },
+    { id: 4, name: "Covid19 tracker", link: "" },
+    { id: 5, name: "Portfolio", link: "" },
   ];
 
   return (
@@ -32,8 +32,10 @@ const Project = () => {
           <br></br>
           <br></br>
           <br></br>
+          <br></br>
+          <br></br>
           <h1>Scroll</h1>
-          <h1>up</h1>
+          <h1>Down</h1>
         </center>
       </section>
 

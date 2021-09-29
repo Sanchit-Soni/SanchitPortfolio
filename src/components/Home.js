@@ -179,7 +179,7 @@ const Home = () => {
           }}
         /> */}
         <div className="row-name ">
-          <Tilt className="Tilt cursor-pointer" options={{ max: 15 }}>
+          <Tilt className="Tilt cursor-pointer" options={{ max: 25 }}>
             <div className="col-name swing">
               {/* <div className="col-name gradient-border"> */}
               <p>
@@ -194,7 +194,7 @@ const Home = () => {
                 loop
               ></Typed>
               <div className="btn">
-                <Tilt className="Tilt cursor-pointer" options={{ max: 15 }}>
+                <Tilt className="Tilt cursor-pointer" options={{ max: 35 }}>
                   <Link to="/about">
                     <button className="btn-1">
                       <h4>Know More</h4>

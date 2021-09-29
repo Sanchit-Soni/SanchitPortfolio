@@ -17,16 +17,14 @@ const EffectCard = ({ data }) => {
         // label="Label (optional)"
       >
         <h1>{data.name}</h1>
-        <h1>{data.name}</h1>
-        <h1>{data.name}</h1>
-        <h1>{data.name}</h1>
+
         <p>
           djisahdjsahd jasnd jas hdjas bdkjsab hbd hsabd hjasb hjasbd hjbashj
           dbahj bdjhasb
         </p>
       </div>
       {/* </Tilt> */}
-      <div>
+      <div className="modal-div">
         <Modal open={open} onClose={onCloseModal} center>
           <div className="modal">
             <h2>{data.name}</h2>

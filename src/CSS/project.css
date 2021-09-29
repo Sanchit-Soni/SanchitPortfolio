@@ -38,6 +38,13 @@ section {
   height: 500px;
   width: 400px;
 }
+.scroll-Cont {
+  animation: MoveUpDown 1s linear infinite;
+}
+.react-responsive-modal-modal {
+  /* margin-top: 5px; */
+  /* height: auto; */
+}
 
 @media screen and (max-width: 768px) {
   .cards {
@@ -53,5 +60,13 @@ section {
   }
   .exp-text {
     font-size: 60px;
+  }
+  .modal {
+    height: 500px;
+    width: 300px;
+  }
+  .react-responsive-modal-modal {
+    margin-top: 40%;
+    height: auto;
   }
 }
