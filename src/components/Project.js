@@ -1,18 +1,17 @@
 import React, { useEffect } from "react";
-
 import EffectCard from "./EffectCard";
 import "../CSS/project.css";
 import Tilt from "react-tilt";
-import locomotiveScroll from "locomotive-scroll";
+// import locomotiveScroll from "locomotive-scroll";
 
 const Project = () => {
   const scrollRef = React.createRef();
 
   useEffect(() => {
-    const scroll = new locomotiveScroll({
-      el: scrollRef.current,
-      smooth: true,
-    });
+    // const scroll = new locomotiveScroll({
+    //   el: scrollRef.current,
+    //   smooth: true,
+    // });
   });
   const data = [
     { id: 0, name: "ProShop" },
