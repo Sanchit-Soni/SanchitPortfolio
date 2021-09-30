@@ -22,12 +22,12 @@ const Project = () => {
     { id: 2, name: "MindSpace", link: "", img: Portfolio },
     { id: 3, name: "Instagram Clone", link: "", img: ProShop },
     { id: 4, name: "Covid Sarthi", link: "", img: Covidsarthi },
-    { id: 5, name: "Portfolio", link: "", img: ProShop },
+    { id: 5, name: "Portfolio", link: "", img: Portfolio },
   ];
 
   return (
     <div ref={scrollRef}>
-      <section data-scroll-speed="1" data-scroll-position="top">
+      <div data-scroll-speed="1" data-scroll-position="top">
         <center>
           <p className="exp-text">EXPLORE MY WORKS</p>
 
@@ -37,18 +37,27 @@ const Project = () => {
           <br></br>
           <br></br>
           <br></br>
+          <br></br>
+
           <h1>Scroll</h1>
           <h1>Down</h1>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
         </center>
-      </section>
+      </div>
 
-      <br></br>
+      {/* <br></br> */}
       <center>
         <p
-          data-scroll
-          data-scroll-speed="1"
-          data-scroll-position="top"
-          data-scroll-direction="horizontal"
+        // data-scroll
+        // data-scroll-speed="1"
+        // data-scroll-position="top"
+        // data-scroll-direction="horizontal"
         >
           Some of My Great Work Samples are:
         </p>
@@ -71,7 +80,7 @@ const Project = () => {
       <br></br>
       <br></br>
       <br></br>
-      <p className="exp-text">WILL ADD MORE WORK SAMPLES SOON..</p>
+      <p className="exp-text">WILL ADD MORE WORK SAMPLES SOON....</p>
     </div>
   );
 };

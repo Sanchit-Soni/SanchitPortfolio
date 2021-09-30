@@ -42,6 +42,8 @@ const EffectCard = ({ data }) => {
             in laying out print, graphic or web designs. The passage is
             attributed to an unknown ...
           </p>
+          <br></br>
+          <p>See More </p>
         </div>
         {/* </Tilt> */}
         {/* <div className="modal-div">
