@@ -5,6 +5,9 @@ import Tilt from "react-tilt";
 import ProShop from "../images/proshop.png";
 import Portfolio from "../images/portfolio.png";
 import Covidsarthi from "../images/covidsarthi.png";
+import EZNews from "../images/eznews.png";
+import C19tracker from "../images/c19tracker.png";
+import Insta from "../images/instagram.png";
 import Fade from "react-reveal/Fade";
 // import locomotiveScroll from "locomotive-scroll";
 
@@ -19,11 +22,12 @@ const Project = () => {
   });
   const data = [
     { id: 0, name: "ProShop", link: "", img: ProShop },
-    { id: 1, name: "EZNews", link: "", img: Portfolio },
-    { id: 2, name: "MindSpace", link: "", img: Portfolio },
-    { id: 3, name: "Instagram Clone", link: "", img: ProShop },
+    { id: 1, name: "EZNews", link: "", img: EZNews },
+    { id: 2, name: "MindSpace", link: "", img: C19tracker },
+    { id: 3, name: "Instagram Clone", link: "", img: Insta },
     { id: 4, name: "Covid Sarthi", link: "", img: Covidsarthi },
     { id: 5, name: "Portfolio", link: "", img: Portfolio },
+    { id: 6, name: "Covid19 Tracker", link: "", img: C19tracker },
   ];
 
   return (
