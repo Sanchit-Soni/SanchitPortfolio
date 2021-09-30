@@ -6,6 +6,7 @@ import "../CSS/home.css";
 import Loading from "./Loading";
 import Tilt from "react-tilt";
 import { Link } from "react-router-dom";
+import Fade from "react-reveal/Fade";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -178,38 +179,40 @@ const Home = () => {
             retina_detect: false,
           }}
         /> */}
-        <div className="row-name ">
-          <Tilt className="Tilt cursor-pointer" options={{ max: 25 }}>
-            <div className="col-name swing">
-              {/* <div className="col-name gradient-border"> */}
-              <p>
-                Hey! I'm Sanchit<span className="wave">👋</span>
-              </p>
+        <Fade>
+          <div className="row-name ">
+            <Tilt className="Tilt cursor-pointer" options={{ max: 25 }}>
+              <div className="col-name swing">
+                {/* <div className="col-name gradient-border"> */}
+                <p>
+                  Hey! I'm Sanchit<span className="wave">👋</span>
+                </p>
 
-              <Typed
-                className="text"
-                strings={["A Developer", "A Gamer", "A Student"]}
-                typeSpeed={70}
-                backSpeed={90}
-                loop
-              ></Typed>
-              <div className="btn">
-                <Tilt className="Tilt cursor-pointer" options={{ max: 35 }}>
-                  <Link to="/about">
-                    <button className="btn-1">
-                      <h4>Know More</h4>
+                <Typed
+                  className="text"
+                  strings={["A Developer", "A Gamer", "A Student"]}
+                  typeSpeed={70}
+                  backSpeed={90}
+                  loop
+                ></Typed>
+                <div className="btn">
+                  <Tilt className="Tilt cursor-pointer" options={{ max: 35 }}>
+                    <Link to="/about">
+                      <button className="btn-1">
+                        <h4>Know More</h4>
+                      </button>
+                    </Link>
+
+                    <button className="btn-1 btn-2">
+                      <h4>Download Resume</h4>
                     </button>
-                  </Link>
-
-                  <button className="btn-1 btn-2">
-                    <h4>Download Resume</h4>
-                  </button>
-                </Tilt>
+                  </Tilt>
+                </div>
               </div>
-            </div>
-          </Tilt>
-          {/* <div className="col2-name"></div> */}
-        </div>
+            </Tilt>
+            {/* <div className="col2-name"></div> */}
+          </div>
+        </Fade>
       </div>
       {/* <section>
         <About />
