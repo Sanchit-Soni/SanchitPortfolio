@@ -7,6 +7,14 @@ import Loading from "./Loading";
 import Tilt from "react-tilt";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
+import HTML from "../images/skills/html.png";
+import CSS from "../images/skills/css.png";
+import JS from "../images/skills/js.png";
+import RS from "../images/skills/reactjs.png";
+import Mongo from "../images/skills/mongoDB.png";
+import Fire from "../images/skills/firebase.png";
+import RN from "../images/skills/react-native.png";
+import Git from "../images/skills/git.png";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -217,6 +225,65 @@ const Home = () => {
       {/* <section>
         <About />
       </section> */}
+      <Fade>
+        <div className="skills-container">
+          <div className="skill-row">
+            <div className="skill-col1">
+              <h1>What He Does?</h1>
+              <p>
+                He creates elegant, logical web and mobile app solutions. In his
+                hobby time, he codes.
+              </p>
+              <h1>Think. Code. Debug.</h1>
+            </div>
+            <div className="skill-col2">
+              <img
+                className="skill-icon react"
+                src={RS}
+                alt="icon"
+                lazy="true"
+              />
+              <img
+                className="skill-icon html"
+                src={HTML}
+                alt="icon"
+                lazy="true"
+              />
+              <img
+                className="skill-icon css"
+                src={CSS}
+                alt="icon"
+                lazy="true"
+              />
+              <img className="skill-icon js" src={JS} alt="icon" lazy="true" />
+              <img
+                className="skill-icon mongo"
+                src={Mongo}
+                alt="icon"
+                lazy="true"
+              />
+              <img
+                className="skill-icon firebase"
+                src={Fire}
+                alt="icon"
+                lazy="true"
+              />
+              <img
+                className="skill-icon native"
+                src={RN}
+                alt="icon"
+                lazy="true"
+              />
+              <img
+                className="skill-icon git"
+                src={Git}
+                alt="icon"
+                lazy="true"
+              />
+            </div>
+          </div>
+        </div>
+      </Fade>
     </>
   );
 };

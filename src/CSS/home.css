@@ -2,9 +2,85 @@
   color: white;
   text-align: center;
   font-size: 2.5rem;
-  /* height: 100vh; */
+  background-color: black;
+  height: 90vh;
+}
+.skills-container {
+  margin: 0 auto;
+  max-width: 1300px;
+  height: 90vh;
+  padding: 40px;
+}
+.skill-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* margin-top: 50px; */
+  margin-top: 15%;
 }
 
+.skill-col1 {
+  width: 500px;
+  /* margin-top: 100px; */
+  display: flex;
+  flex-direction: column;
+}
+.skill-col1 > h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+.skill-col2 {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 550px;
+  background-color: #8739f9;
+  border-radius: 35px;
+}
+.skill-icon {
+  /* height: 100px;
+  width: 100px; */
+  padding: 27px;
+}
+.skill-icon:hover {
+  /* border-radius: 10px; */
+  transform: scale(1.4);
+  transition: 0.5s ease;
+}
+
+.html {
+  height: 90px;
+  width: 90px;
+}
+.css {
+  height: 90px;
+  width: 70px;
+}
+.js {
+  margin-top: 15px;
+  height: 70px;
+  width: 70px;
+}
+.react {
+  margin-top: 15px;
+  height: 70px;
+  width: 100px;
+}
+.mongo {
+  height: 40px;
+  width: 150px;
+}
+.native {
+  height: 80px;
+  width: 70px;
+}
+.firebase {
+  height: 45px;
+  width: 150px;
+}
 .row-name {
   z-index: 999;
   display: flex;
@@ -146,6 +222,33 @@
 }
 
 @media screen and (max-width: 768px) {
+  .skill-row {
+    align-items: center;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .skill-col2 {
+    padding: 20px;
+    margin-top: 40px;
+    width: 300px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+  }
+  .skill-col1 {
+    width: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .skill-col1 > h1 {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+
   .gradient-border {
     width: 200px;
   }
@@ -168,6 +271,38 @@
 
   .row-name > div > p {
     font-size: 10px;
+  }
+
+  /* icon css mobile */
+  .html {
+    height: 90px;
+    width: 90px;
+  }
+  .css {
+    height: 90px;
+    width: 70px;
+  }
+  .js {
+    margin-top: 15px;
+    height: 70px;
+    width: 70px;
+  }
+  .react {
+    margin-top: 15px;
+    height: 70px;
+    width: 100px;
+  }
+  .mongo {
+    height: 40px;
+    width: 150px;
+  }
+  .native {
+    height: 80px;
+    width: 70px;
+  }
+  .firebase {
+    height: 45px;
+    width: 150px;
   }
 }
 

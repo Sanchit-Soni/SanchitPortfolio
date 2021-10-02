@@ -35,6 +35,29 @@
   width: 500px;
   /* padding: 10px; */
 }
+.scroll-down {
+  /* position: absolute; */
+  left: 47%;
+  right: 50%;
+  animation-name: upDown;
+  animation-duration: 4s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+}
+@keyframes upDown {
+  0% {
+    top: 70%;
+    color: #8753f9;
+  }
+  50% {
+    top: 75%;
+    color: white;
+  }
+  100% {
+    top: 70%;
+    color: #8753f9;
+  }
+}
 
 section {
   height: 150vh;
@@ -77,8 +100,9 @@ section {
   width: 350px;
 }
 .project-text {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bolder;
+  margin-bottom: 25px;
 }
 .project-desc {
   text-align: justify;
@@ -141,7 +165,7 @@ section {
 
   .project-row {
     margin: 0 auto;
-    margin-top: 25%;
+    margin-top: 15%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

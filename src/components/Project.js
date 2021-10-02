@@ -44,9 +44,18 @@ const Project = () => {
             <br></br>
             <br></br>
             <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
 
-            <h1>Scroll</h1>
-            <h1>Down</h1>
+            <div className="scroll-down">
+              <h1>Scroll</h1>
+              <h1>Down</h1>
+            </div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <br></br>
             <br></br>
             <br></br>
@@ -55,6 +64,7 @@ const Project = () => {
             <br></br>
             <br></br>
           </center>
+          {/* </center> */}
         </div>
 
         {/* <br></br> */}

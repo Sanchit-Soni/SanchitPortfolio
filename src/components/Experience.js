@@ -13,6 +13,7 @@ const Experience = () => {
         <center>
           <h1> Experiences</h1>
         </center>
+        <br></br>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
