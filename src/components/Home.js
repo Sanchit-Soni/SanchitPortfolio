@@ -20,7 +20,7 @@ const Home = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 1750);
+    setTimeout(() => setLoading(false), 2500);
   }, [loading]);
 
   if (loading) return <Loading />;
@@ -282,6 +282,12 @@ const Home = () => {
               />
             </div>
           </div>
+        </div>
+      </Fade>
+      <Fade>
+        <div>
+          <div>Explore Some of his works</div>
+          <div>Works</div>
         </div>
       </Fade>
     </>

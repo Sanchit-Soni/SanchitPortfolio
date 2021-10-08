@@ -1,13 +1,15 @@
 import React from "react";
+import { Fade } from "react-reveal";
 import "../CSS/loading.css";
 const Loading = () => {
   return (
-    <div className="loader-container">
-      <div className="loader loader-1">
-        <div className="loader-outter"></div>
-        <div className="loader-inner"></div>
+    <Fade>
+      <div className="loader-container">
+        <h1 className="loading-text" data-text="Loading...">
+          Loading...
+        </h1>
       </div>
-    </div>
+    </Fade>
   );
 };
 
