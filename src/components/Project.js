@@ -69,14 +69,14 @@ const Project = () => {
 
         {/* <br></br> */}
         <center>
-          <p
+          <h1
           // data-scroll
           // data-scroll-speed="1"
           // data-scroll-position="top"
           // data-scroll-direction="horizontal"
           >
             Some of My Great Work Samples are:
-          </p>
+          </h1>
         </center>
         <div className="xyz">
           <div className="row-pr">

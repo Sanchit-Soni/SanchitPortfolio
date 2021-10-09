@@ -7,22 +7,24 @@ import Project from "./components/Project";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import React from "react";
-import AnimatedCursor from "react-animated-cursor";
+// import AnimatedCursor from "react-animated-cursor";
 import EachProject from "./components/EachProject";
+import CustomCursor from "./CustomCursor";
 // import Sidebar from "./components/Sidebar";
 // import LocomotiveScroll from "locomotive-scroll";
 
 function App() {
   return (
     <div className="App" data-scroll-container>
-      <AnimatedCursor
+      {/* <AnimatedCursor
         innerSize={15}
         outerSize={40}
         color="198,81,205"
         outerAlpha={0.2}
         innerScale={0.7}
         outerScale={2}
-      />
+      /> */}
+      <CustomCursor />
       <Router>
         <Navbar />
 

@@ -190,7 +190,7 @@ const Home = () => {
         <Fade>
           <div className="row-name ">
             <Tilt className="Tilt cursor-pointer" options={{ max: 25 }}>
-              <div className="col-name swing">
+              <div className="col-name">
                 {/* <div className="col-name gradient-border"> */}
                 <p>
                   Hey! I'm Sanchit<span className="wave">👋</span>
