@@ -25,7 +25,6 @@ function App() {
       />
       <Router>
         <Navbar />
-        {/* <Sidebar /> */}
 
         <div className="pages">
           <Switch>

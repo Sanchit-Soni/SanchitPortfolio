@@ -96,7 +96,7 @@ const Project = () => {
         <br></br>
         <br></br>
         <br></br>
-        <p className="exp-text">WILL ADD MORE WORK SAMPLES SOON....</p>
+        {/* <p className="exp-text">WILL ADD MORE WORK SAMPLES SOON....</p> */}
       </Fade>
     </div>
   );

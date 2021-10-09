@@ -5,8 +5,8 @@ const Loading = () => {
   return (
     <Fade>
       <div className="loader-container">
-        <h1 className="loading-text" data-text="Loading...">
-          Loading...
+        <h1 className="loading-text" data-text="Loading.">
+          Loading.
         </h1>
       </div>
     </Fade>

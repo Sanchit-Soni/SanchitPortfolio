@@ -285,10 +285,12 @@ const Home = () => {
         </div>
       </Fade>
       <Fade>
-        <div>
-          <div>Explore Some of his works</div>
-          <div>Works</div>
-        </div>
+        <center>
+          <div className="works-container">
+            <h1>Explore Some of his works</h1>
+            <h1>Works.</h1>
+          </div>
+        </center>
       </Fade>
     </>
   );

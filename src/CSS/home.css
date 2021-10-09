@@ -8,7 +8,7 @@
 .skills-container {
   margin: 0 auto;
   max-width: 1300px;
-  height: 90vh;
+  /* height: 100vh; */
   padding: 40px;
 }
 .skill-row {
@@ -109,6 +109,11 @@
   margin-top: 8%;
   /* height: 400px; */
   /* border: 2px solid white; */
+}
+
+.works-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 /* sfdsfs */
