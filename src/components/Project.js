@@ -20,6 +20,9 @@ const Project = () => {
     //   smooth: true,
     // });
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const data = [
     { id: 0, name: "ProShop", link: "", img: ProShop },
     { id: 1, name: "EZNews", link: "", img: EZNews },
@@ -36,10 +39,6 @@ const Project = () => {
         <div data-scroll-speed="1" data-scroll-position="top">
           <center>
             <p className="exp-text">EXPLORE MY WORKS</p>
-
-            <br></br>
-            <br></br>
-            <br></br>
             <br></br>
             <br></br>
             <br></br>
@@ -48,10 +47,16 @@ const Project = () => {
             <br></br>
             <br></br>
 
-            <div className="scroll-down">
-              <h1>Scroll</h1>
-              <h1>Down</h1>
+            <div className="object">
+              <p>
+                <i className="arrow down"></i>
+              </p>
             </div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <br></br>
             <br></br>
             <br></br>

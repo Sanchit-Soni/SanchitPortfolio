@@ -35,6 +35,26 @@
   width: 500px;
   /* padding: 10px; */
 }
+.btnP-1 {
+  cursor: pointer;
+  padding: 5px;
+  background-color: #000000;
+  color: white;
+  font-size: 15px;
+  width: 240px;
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid #8739f9;
+  margin-top: 10px;
+}
+.btnP-2 {
+  margin-left: 15px;
+}
+.btnP-1:hover {
+  background-color: #8739f9;
+  border: 1px solid black;
+  transition: 0.3s ease-in;
+}
 .scroll-down {
   /* position: absolute; */
   left: 47%;
@@ -130,10 +150,36 @@ section {
   width: 130px;
 }
 .open {
-  margin-left: 15px;
+  /* margin-left: 15px; */
   width: 130px;
 }
 
+.object {
+  animation: MoveUpDown 3s linear infinite;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 40px;
+  }
+}
+.arrow {
+  border: solid white;
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 5px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
 @media screen and (max-width: 900px) {
   .img-card {
     height: 280px;

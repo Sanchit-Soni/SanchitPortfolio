@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import Typed from "react-typed";
+// import Typed from "react-typed";
 import Particles from "react-particles-js";
 import "../CSS/home.css";
 // import About from "./About";
 import Loading from "./Loading";
-import Tilt from "react-tilt";
+// import Tilt from "react-tilt";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 import HTML from "../images/skills/html.png";
@@ -189,36 +189,45 @@ const Home = () => {
         /> */}
         <Fade>
           <div className="row-name ">
-            <Tilt className="Tilt cursor-pointer" options={{ max: 25 }}>
-              <div className="col-name">
-                {/* <div className="col-name gradient-border"> */}
-                <p>
-                  Hey! I'm Sanchit<span className="wave">👋</span>
-                </p>
-
-                <Typed
-                  className="text"
-                  strings={["A Developer", "A Gamer", "A Student"]}
-                  typeSpeed={70}
-                  backSpeed={90}
-                  loop
-                ></Typed>
+            {/* <Tilt className="Tilt cursor-pointer" options={{ max: 25 }}> */}
+            <div className="col-name">
+              {/* <div className="col-name gradient-border"> */}
+              <p>Who is he?</p>
+              <h1>
+                Sanchit Soni
+                {/* <span className="wave">👋</span> */}
+              </h1>
+              <p>
+                "A fresher with experience", this line says exactly who he is.
+                He is a software developer who crafts beautiful web and apps.
+                His perfect balance of technical & managerial skills stands him
+                apart from the crowd.
+              </p>
+              {/* <Typed
+                className="text"
+                strings={["A Developer", "A Gamer", "A Student"]}
+                typeSpeed={70}
+                backSpeed={90}
+                loop
+              ></Typed> */}
+              <center>
                 <div className="btn">
-                  <Tilt className="Tilt cursor-pointer" options={{ max: 35 }}>
-                    <Link to="/about">
-                      <button className="btn-1">
-                        <h4>Know More</h4>
-                      </button>
-                    </Link>
-
-                    <button className="btn-1 btn-2">
-                      <h4>Download Resume</h4>
+                  {/* <Tilt className="Tilt cursor-pointer" options={{ max: 35 }}> */}
+                  <Link to="/about">
+                    <button className="btn-1">
+                      <p>Know More</p>
                     </button>
-                  </Tilt>
+                  </Link>
+
+                  <button className="btn-1 btn-2">
+                    <p>Download Resume</p>
+                  </button>
+                  {/* </Tilt> */}
                 </div>
-              </div>
-            </Tilt>
-            {/* <div className="col2-name"></div> */}
+              </center>
+            </div>
+            {/* </Tilt> */}
+            <div className="col2-name"></div>
           </div>
         </Fade>
       </div>
@@ -288,7 +297,13 @@ const Home = () => {
         <center>
           <div className="works-container">
             <h1>Explore Some of his works</h1>
-            <h1>Works.</h1>
+            <br></br>
+            <br></br>
+            <Link to="/project">
+              <button className="btnP-1">
+                <h1>Click here</h1>
+              </button>
+            </Link>
           </div>
         </center>
       </Fade>

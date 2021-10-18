@@ -23,15 +23,15 @@ const EachProject = (props) => {
                 attributed to an unknown ...
               </p>
               <div className="btn">
-                <Tilt className="Tilt cursor-pointer" options={{ max: 35 }}>
-                  <button className="btn-1 git">
-                    <h4>Github</h4>
-                  </button>
+                {/* <Tilt className="Tilt cursor-pointer" options={{ max: 35 }}> */}
+                <button className="btnP-1 git">
+                  <h4>Github</h4>
+                </button>
 
-                  <button className="btn-1 btn-2 open">
-                    <h4>Open</h4>
-                  </button>
-                </Tilt>
+                <button className="btnP-1 btnP-2 open">
+                  <h4>Open</h4>
+                </button>
+                {/* </Tilt> */}
               </div>
             </div>
             <div className="project-col2">
