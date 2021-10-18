@@ -26,6 +26,7 @@ const EffectCard = ({ data }) => {
             id: data.id,
             name: data.name,
             img: data.img,
+            icon: data.icons,
           },
         }}
       >

@@ -7,8 +7,8 @@ import Loading from "./Loading";
 // import Tilt from "react-tilt";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
-import HTML from "../images/skills/html.png";
-import CSS from "../images/skills/css.png";
+import HTML from "../images/skills/html.svg";
+import CSS from "../images/skills/css.svg";
 import JS from "../images/skills/js.png";
 import RS from "../images/skills/react.svg";
 import Mongo from "../images/skills/mongoDB.svg";
@@ -196,7 +196,7 @@ const Home = () => {
               {/* <div className="col-name gradient-border"> */}
               <p>Who is he?</p>
               <h1>
-                Sanchit Soni
+                SANCHIT SONI
                 {/* <span className="wave">👋</span> */}
               </h1>
               <p>

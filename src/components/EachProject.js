@@ -10,6 +10,9 @@ const EachProject = (props) => {
   // var id = stateData["id"];
   var name = stateData["name"];
   var img = stateData["img"];
+  var icons = stateData["icon"];
+  console.log(icons);
+  console.log(img);
   return (
     <div className="project-container">
       <Fade>
@@ -54,10 +57,11 @@ const EachProject = (props) => {
             <h1>What Technologies are used?</h1>
           </div>
           <div className="project-icon">
-            <div>HTML</div>
-            <div>CSS</div>
-            <div>JS</div>
-            <div>ReactJS</div>
+            {icons.map((icon, id) => (
+              <div>
+                <img src={icon} alt="icon" className="tech-icons" />
+              </div>
+            ))}
           </div>
         </center>
       </Fade>

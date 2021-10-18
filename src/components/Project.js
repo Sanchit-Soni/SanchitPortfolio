@@ -9,6 +9,17 @@ import EZNews from "../images/eznews.png";
 import C19tracker from "../images/c19tracker.png";
 import Insta from "../images/instagram.png";
 import Fade from "react-reveal/Fade";
+//icons
+// import HTML from "../images/skills/html.svg";
+import CSS from "../images/skills/css.svg";
+import JS from "../images/skills/js.png";
+import RS from "../images/skills/react.svg";
+import Mongo from "../images/skills/mongoDB.svg";
+import Fire from "../images/skills/firee.png";
+// import RN from "../images/skills/react-native.png";
+// import Git from "../images/skills/git.png";
+import node from "../images/skills/nodejs.svg";
+import exp from "../images/skills/express.svg";
 // import locomotiveScroll from "locomotive-scroll";
 
 const Project = () => {
@@ -24,13 +35,55 @@ const Project = () => {
     window.scrollTo(0, 0);
   }, []);
   const data = [
-    { id: 0, name: "ProShop", link: "", img: ProShop },
-    { id: 1, name: "EZNews", link: "", img: EZNews },
-    { id: 2, name: "MindSpace", link: "", img: C19tracker },
-    { id: 3, name: "Instagram Clone", link: "", img: Insta },
-    { id: 4, name: "Covid Sarthi", link: "", img: Covidsarthi },
-    { id: 5, name: "Portfolio", link: "", img: Portfolio },
-    { id: 6, name: "Covid19 Tracker", link: "", img: C19tracker },
+    {
+      id: 0,
+      name: "ProShop",
+      link: "",
+      img: ProShop,
+      icons: [RS, node, Mongo, exp],
+    },
+    {
+      id: 1,
+      name: "EZNews",
+      link: "",
+      img: EZNews,
+      icons: [RS, Fire, CSS, JS],
+    },
+    {
+      id: 2,
+      name: "MindSpace",
+      link: "",
+      img: C19tracker,
+      icons: [RS, node, Mongo, exp],
+    },
+    {
+      id: 3,
+      name: "Instagram Clone",
+      link: "",
+      img: Insta,
+      icons: [RS, node, Mongo, exp],
+    },
+    {
+      id: 4,
+      name: "Covid Sarthi",
+      link: "",
+      img: Covidsarthi,
+      icons: [RS, node, Mongo, exp],
+    },
+    {
+      id: 5,
+      name: "Portfolio",
+      link: "",
+      img: Portfolio,
+      icons: [RS, node, Mongo, exp],
+    },
+    {
+      id: 6,
+      name: "Covid19 Tracker",
+      link: "",
+      img: C19tracker,
+      icons: [RS, node, Mongo, exp],
+    },
   ];
 
   return (
