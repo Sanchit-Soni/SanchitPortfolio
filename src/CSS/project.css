@@ -83,7 +83,7 @@ section {
   height: 150vh;
 }
 .exp-text {
-  font-size: 150px;
+  font-size: 10rem;
 }
 
 .modal {
@@ -164,7 +164,7 @@ section {
 @keyframes MoveUpDown {
   0%,
   100% {
-    bottom: 200px;
+    bottom: 130px;
   }
   50% {
     bottom: 100px;
@@ -198,7 +198,9 @@ section {
     width: 280px;
   }
   .exp-text {
-    font-size: 60px;
+    font-size: 3rem;
+    padding: 10px;
+    margin-top: 50px;
   }
   .modal {
     height: 500px;

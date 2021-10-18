@@ -38,7 +38,7 @@ const Project = () => {
       <Fade>
         <div data-scroll-speed="1" data-scroll-position="top">
           <center>
-            <p className="exp-text">EXPLORE MY WORKS</p>
+            <h1 className="exp-text">EXPLORE MY WORKS</h1>
             <br></br>
             <br></br>
             <br></br>
