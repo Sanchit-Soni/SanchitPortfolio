@@ -185,6 +185,8 @@ section {
 .tech-icons {
   margin-top: 10px;
   margin-bottom: 10px;
+  max-width: 150px;
+  max-height: 100px;
 }
 
 @media screen and (max-width: 900px) {

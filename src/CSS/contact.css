@@ -1,0 +1,46 @@
+.contact-container {
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1500px;
+}
+.meet-div {
+  margin-top: 120px;
+  margin-left: 150px;
+  /* text-align: justify; */
+  /* width: 400px; */
+}
+.meet-div > h1 {
+  font-size: 4.4rem;
+}
+.meet-div > p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.calendy {
+  width: 400px;
+  min-height: 600px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .meet-div > h1 {
+    font-size: 2rem;
+  }
+  .contact-container {
+    flex-direction: column;
+  }
+  .calendy {
+    width: 300px;
+    min-height: 600px;
+    margin: 0 auto;
+  }
+  .meet-div {
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    /* width: 700px; */
+  }
+}

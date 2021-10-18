@@ -11,6 +11,8 @@ const EachProject = (props) => {
   var name = stateData["name"];
   var img = stateData["img"];
   var icons = stateData["icon"];
+  var gitLink = stateData["gitLink"];
+  var link = stateData["link"];
   console.log(icons);
   console.log(img);
   return (
@@ -27,13 +29,16 @@ const EachProject = (props) => {
               </p>
               <div className="btn">
                 {/* <Tilt className="Tilt cursor-pointer" options={{ max: 35 }}> */}
-                <button className="btnP-1 git">
-                  <h4>Github</h4>
-                </button>
-
-                <button className="btnP-1 btnP-2 open">
-                  <h4>Open</h4>
-                </button>
+                <a href={gitLink} rel="noreferrer" target="_blank">
+                  <button className="btnP-1 git">
+                    <h4>Github</h4>
+                  </button>
+                </a>
+                <a href={link} rel="noreferrer" target="_blank">
+                  <button className="btnP-1 btnP-2 open">
+                    <h4>Open</h4>
+                  </button>
+                </a>
                 {/* </Tilt> */}
               </div>
             </div>

@@ -16,8 +16,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* margin-top: 50px; */
-  margin-top: 15%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  /* margin-top: 15%; */
 }
 
 .skill-col1 {
@@ -96,9 +97,9 @@
   padding: 50px 110px 50px 110px;
 }
 .row-name > div > h1 {
-  font-size: 4.4rem;
+  font-size: 4rem;
   color: #e0fefe;
-  font-family: "Prompt", sans-serif;
+  /* font-family: "Prompt", sans-serif; */
 }
 
 .row-name > div > p {
@@ -241,6 +242,9 @@
 @media screen and (max-width: 768px) {
   .row-name > div > p {
     font-size: 25px;
+  }
+  .skill-icon {
+    margin-top: 18px;
   }
   .row-name {
     /* padding: 10px; */

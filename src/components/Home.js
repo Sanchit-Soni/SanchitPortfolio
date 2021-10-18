@@ -239,7 +239,7 @@ const Home = () => {
         <About />
       </section> */}
       <Fade>
-        <div className="skills-container">
+        <div className="skills-container" id="skills">
           <div className="skill-row">
             <div className="skill-col1">
               <h1>What He Does?</h1>

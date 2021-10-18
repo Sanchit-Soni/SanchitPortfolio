@@ -8,9 +8,10 @@ import Covidsarthi from "../images/covidsarthi.png";
 import EZNews from "../images/eznews.png";
 import C19tracker from "../images/c19tracker.png";
 import Insta from "../images/instagram.png";
+import mindspace from "../images/mindspace.png";
 import Fade from "react-reveal/Fade";
 //icons
-// import HTML from "../images/skills/html.svg";
+import HTML from "../images/skills/html.svg";
 import CSS from "../images/skills/css.svg";
 import JS from "../images/skills/js.png";
 import RS from "../images/skills/react.svg";
@@ -38,51 +39,58 @@ const Project = () => {
     {
       id: 0,
       name: "ProShop",
-      link: "",
       img: ProShop,
       icons: [RS, node, Mongo, exp],
+      gitLink: "https://github.com/Sanchit-Soni/ProShop",
+      link: "http://proshop-vr1.herokuapp.com/",
     },
     {
       id: 1,
       name: "EZNews",
-      link: "",
       img: EZNews,
       icons: [RS, Fire, CSS, JS],
+      gitLink: "https://github.com/Sanchit-Soni/EZNews",
+      link: "https://chateznews.web.app/",
     },
     {
       id: 2,
       name: "MindSpace",
-      link: "",
-      img: C19tracker,
-      icons: [RS, node, Mongo, exp],
+      link: "https://mindspace-2a3a2.web.app/",
+      img: mindspace,
+      icons: [RS, Fire, CSS, JS],
+      gitLink: "https://github.com/Sanchit-Soni/MindSpace-Frontend",
     },
     {
       id: 3,
       name: "Instagram Clone",
-      link: "",
+      link: "https://instagram-8b046.web.app/",
       img: Insta,
-      icons: [RS, node, Mongo, exp],
+      icons: [RS, Fire, CSS, JS],
+      gitLink: "https://github.com/Sanchit-Soni/Instagram-clone",
     },
     {
       id: 4,
       name: "Covid Sarthi",
-      link: "",
+      link: "https://sheet-2-firebase-ef219.web.app/",
       img: Covidsarthi,
-      icons: [RS, node, Mongo, exp],
+      icons: [RS, Fire, JS, CSS],
+      gitLink: "https://github.com/Sanchit-Soni/CovidSarthi",
     },
     {
       id: 5,
       name: "Portfolio",
-      link: "",
+      link: "https://sanchit-soni.github.io/Portfolio-Final/",
       img: Portfolio,
-      icons: [RS, node, Mongo, exp],
+      icons: [HTML, CSS, JS],
+      gitLink: "https://github.com/Sanchit-Soni/Portfolio-Final",
     },
     {
       id: 6,
       name: "Covid19 Tracker",
-      link: "",
+      link: "https://covid19tracker-cc742.web.app/",
       img: C19tracker,
-      icons: [RS, node, Mongo, exp],
+      icons: [RS, CSS],
+      gitLink: "https://github.com/Sanchit-Soni/Covid19-Tracker",
     },
   ];
 
