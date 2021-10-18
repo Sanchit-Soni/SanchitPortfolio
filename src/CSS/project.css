@@ -84,6 +84,7 @@ section {
 }
 .exp-text {
   font-size: 10rem;
+  /* padding: 10px; */
 }
 
 .modal {

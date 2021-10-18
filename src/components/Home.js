@@ -10,11 +10,13 @@ import Fade from "react-reveal/Fade";
 import HTML from "../images/skills/html.png";
 import CSS from "../images/skills/css.png";
 import JS from "../images/skills/js.png";
-import RS from "../images/skills/reactjs.png";
-import Mongo from "../images/skills/mongoDB.png";
-import Fire from "../images/skills/firebase.png";
+import RS from "../images/skills/react.svg";
+import Mongo from "../images/skills/mongoDB.svg";
+import Fire from "../images/skills/firee.png";
 import RN from "../images/skills/react-native.png";
 import Git from "../images/skills/git.png";
+import node from "../images/skills/nodejs.svg";
+import exp from "../images/skills/express.svg";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -77,13 +79,13 @@ const Home = () => {
           params={{
             particles: {
               number: {
-                value: 160,
+                value: 60,
                 density: {
                   enable: false,
                 },
               },
               size: {
-                value: 4,
+                value: 5,
                 random: true,
                 anim: {
                   speed: 4,
@@ -227,7 +229,9 @@ const Home = () => {
               </center>
             </div>
             {/* </Tilt> */}
-            <div className="col2-name"></div>
+            <div className="col2-name">
+              {/* <img src="https://media0.giphy.com/media/L8K62iTDkzGX6/giphy.gif" /> */}
+            </div>
           </div>
         </Fade>
       </div>
@@ -249,6 +253,18 @@ const Home = () => {
               <img
                 className="skill-icon react"
                 src={RS}
+                alt="icon"
+                lazy="true"
+              />
+              <img
+                className="skill-icon node"
+                src={node}
+                alt="icon"
+                lazy="true"
+              />
+              <img
+                className="skill-icon express"
+                src={exp}
                 alt="icon"
                 lazy="true"
               />

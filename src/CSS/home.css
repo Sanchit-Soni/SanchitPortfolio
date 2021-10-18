@@ -44,7 +44,7 @@
 .skill-icon {
   /* height: 100px;
   width: 100px; */
-  padding: 27px;
+  padding: 10px;
 }
 .skill-icon:hover {
   /* border-radius: 10px; */
@@ -53,24 +53,26 @@
 }
 
 .html {
-  height: 90px;
+  height: 95px;
   width: 90px;
 }
 .css {
-  height: 90px;
-  width: 70px;
+  height: 100px;
+  width: 100px;
 }
 .js {
   margin-top: 15px;
   height: 70px;
   width: 70px;
+  border-radius: 25px;
 }
 .react {
   margin-top: 15px;
-  height: 70px;
+  /* height: 100px; */
   width: 100px;
 }
 .mongo {
+  margin-top: 15px;
   height: 40px;
   width: 150px;
 }
@@ -79,7 +81,12 @@
   width: 70px;
 }
 .firebase {
-  height: 45px;
+  height: 90px;
+  width: 90px;
+}
+.git {
+  margin-top: 10px;
+  height: 55px;
   width: 150px;
 }
 .row-name {
@@ -310,8 +317,8 @@
     width: 90px;
   }
   .css {
-    height: 90px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
   }
   .js {
     margin-top: 15px;
@@ -323,6 +330,9 @@
     height: 70px;
     width: 100px;
   }
+  .express {
+    margin-top: 20px;
+  }
   .mongo {
     height: 40px;
     width: 150px;
@@ -332,8 +342,8 @@
     width: 70px;
   }
   .firebase {
-    height: 45px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
   }
 }
 
