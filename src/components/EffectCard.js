@@ -1,14 +1,7 @@
 import React from "react";
-import "react-responsive-modal/styles.css";
-
 import { Link } from "react-router-dom";
 
 const EffectCard = ({ data }) => {
-  // console.log(data);
-  // const [open, setOpen] = useState(false);
-
-  // const onOpenModal = () => setOpen(true);
-  // const onCloseModal = () => setOpen(false);
   return (
     <>
       {/* <Tilt className="Tilt cursor-pointer" options={{ max: 15 }}> */}
@@ -32,12 +25,7 @@ const EffectCard = ({ data }) => {
           },
         }}
       >
-        <div
-          className="card-area"
-          // onClick={onOpenModal}
-          // onClose={onCloseModal}
-          // label="Label (optional)"
-        >
+        <div className="card-area">
           <h1>{data.name}</h1>
           {/* <img alt="sad" className="img-card" src={data.img} /> */}
           <p>
