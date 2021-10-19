@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 // import Typed from "react-typed";
 import Particles from "react-particles-js";
 import "../CSS/home.css";
 // import About from "./About";
-import Loading from "./Loading";
 // import Tilt from "react-tilt";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
@@ -17,16 +16,9 @@ import RN from "../images/skills/react-native.png";
 import Git from "../images/skills/git.png";
 import node from "../images/skills/nodejs.svg";
 import exp from "../images/skills/express.svg";
+import Cal from "../images/calendar.png";
 
 const Home = () => {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 2500);
-  }, [loading]);
-
-  if (loading) return <Loading />;
-
   return (
     <>
       <div className="home-container">
@@ -312,16 +304,37 @@ const Home = () => {
       <Fade>
         <center>
           <div className="works-container">
+            <p>Let's Walk the Talk!</p>
             <h1>Explore Some of his works</h1>
             <br></br>
             <br></br>
             <Link to="/project">
               <button className="btnP-1">
-                <h1>Click here</h1>
+                <p>Click Here</p>
               </button>
             </Link>
           </div>
         </center>
+      </Fade>
+      <Fade>
+        <div className="connect-container">
+          <div className="connect-row">
+            <div className="connect-text">
+              <p>Meet and Greet!</p>
+              <h1>Let’s grab a cup of coffee.</h1>
+            </div>
+            <div className="connect-image">
+              <img src={Cal} alt="img" />
+            </div>
+          </div>
+          <center>
+            <Link to="/contact">
+              <button className="btnP-1">
+                <p>Let's Connect 🚀 </p>
+              </button>
+            </Link>
+          </center>
+        </div>
       </Fade>
     </>
   );

@@ -10,7 +10,7 @@ const Navbar = () => {
 
            <nav className="navbar">
         <div className="nav-container">
-          <NavLink exact to="/" className="nav-logo">
+          <NavLink exact to="/home" className="nav-logo">
             Sanchit.
            
           </NavLink>
@@ -19,7 +19,7 @@ const Navbar = () => {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/"
+                to="/home"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}

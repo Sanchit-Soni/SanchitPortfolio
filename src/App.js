@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import React from "react";
 import AnimatedCursor from "react-animated-cursor";
 import EachProject from "./components/EachProject";
+import Loading from "./components/Loading";
 // import CustomCursor from "./CustomCursor";
 // import Sidebar from "./components/Sidebar";
 // import LocomotiveScroll from "locomotive-scroll";
@@ -30,12 +31,14 @@ function App() {
 
         <div className="pages">
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={Loading} />
+            <Route exact path="/home" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/project" component={Project} />
             <Route exact path="/project/:id" component={EachProject} />
             <Route exact path="/experience" component={Experience} />
             <Route exact path="/contact" component={Contact} />
+            <Route exact path="*" component={Home} />
           </Switch>
         </div>
       </Router>
