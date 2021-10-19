@@ -196,7 +196,7 @@ const Home = () => {
               {/* <div className="col-name gradient-border"> */}
               <p>Who is he?</p>
               <h1>
-                SANCHIT SONI
+                Sanchit Soni
                 {/* <span className="wave">👋</span> */}
               </h1>
               <p>
@@ -215,11 +215,11 @@ const Home = () => {
               <center>
                 <div className="btn">
                   {/* <Tilt className="Tilt cursor-pointer" options={{ max: 35 }}> */}
-                  <Link to="/about">
+                  <a href="#skills">
                     <button className="btn-1">
                       <p>Know More</p>
                     </button>
-                  </Link>
+                  </a>
 
                   <button className="btn-1 btn-2">
                     <p>Download Resume</p>

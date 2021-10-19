@@ -99,7 +99,7 @@ const Project = () => {
       <Fade>
         <div data-scroll-speed="1" data-scroll-position="top">
           <center>
-            <h1 className="exp-text">EXPLORE MY WORKS</h1>
+            <h1 className="exp-text">EXPLORE HIS WORKS</h1>
             <br></br>
             <br></br>
             <br></br>
@@ -141,7 +141,7 @@ const Project = () => {
           // data-scroll-position="top"
           // data-scroll-direction="horizontal"
           >
-            Some of My Great Work Samples are:
+            Some of His Great Work Samples are:
           </h1>
         </center>
         <div className="xyz">

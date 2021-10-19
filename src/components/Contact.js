@@ -9,6 +9,36 @@ const Contact = () => {
         <div className="meet-div">
           <h1>Meet and Greet</h1>
           <p>Schedule a 30 minutes call with me via Google meet.</p>
+          <div className="meet-icons">
+            <a
+              href="mailto:sanchitsony@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa fa-envelope fa-2x"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/sanchit-soni-2318a61b2/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-linkedin  fa-2x"></i>
+            </a>
+            <a
+              href="https://github.com/Sanchit-Soni"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-github  fa-2x"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/sanchit__soni/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-instagram  fa-2x"></i>
+            </a>
+          </div>
         </div>
       </center>
       <div className="calendy">

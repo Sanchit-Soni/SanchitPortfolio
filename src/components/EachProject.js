@@ -63,7 +63,7 @@ const EachProject = (props) => {
           </div>
           <div className="project-icon">
             {icons.map((icon, id) => (
-              <div>
+              <div className="each-icon">
                 <img src={icon} alt="icon" className="tech-icons" />
               </div>
             ))}

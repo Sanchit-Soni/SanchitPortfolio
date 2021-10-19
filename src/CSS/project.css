@@ -188,7 +188,16 @@ section {
   max-width: 150px;
   max-height: 100px;
 }
-
+.project-icon {
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.each-icon {
+  padding: 15px;
+  display: grid;
+  place-items: center;
+}
 @media screen and (max-width: 900px) {
   .img-card {
     height: 280px;
