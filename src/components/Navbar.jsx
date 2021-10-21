@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import { NavLink } from "react-router-dom";
+// import Logo from '../images/LOGO.jpg'
 import '../CSS/navbar.css' 
 
 const Navbar = () => {
@@ -11,7 +12,7 @@ const Navbar = () => {
            <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/home" className="nav-logo">
-            Sanchit.
+           Sanchit
            
           </NavLink>
 

@@ -14,7 +14,7 @@
   margin: 0 auto;
   max-width: 1300px;
   /* height: 100vh; */
-  padding: 50px 110px 50px 110px;
+  padding: 50px 120px 50px 120px;
 }
 .skill-row {
   display: flex;
@@ -38,18 +38,20 @@
   font-size: 50px;
 }
 .skill-col2 {
-  padding: 5px;
+  padding: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 550px;
+  width: 450px;
   background-color: #8739f9;
   border-radius: 35px;
 }
 .skill-icon {
   /* height: 100px;
   width: 100px; */
+  align-items: center;
+  justify-content: center;
   padding: 10px;
 }
 .skill-icon:hover {
@@ -59,21 +61,22 @@
 }
 
 .html {
-  height: 95px;
-  width: 90px;
+  height: 75px;
+  width: 70px;
 }
 .css {
-  height: 90px;
-  width: 90px;
+  margin-top: 10px;
+  height: 75px;
+  width: 70px;
 }
 .js {
   margin-top: 15px;
   height: 70px;
   width: 70px;
-  border-radius: 25px;
+  /* border-radius: 25px; */
 }
 .react {
-  margin-top: 15px;
+  /* margin-top: 15px; */
   /* height: 100px; */
   width: 100px;
 }
@@ -81,6 +84,10 @@
   margin-top: 15px;
   height: 40px;
   width: 150px;
+}
+.express {
+  margin-top: 15px;
+  height: 45px;
 }
 .native {
   height: 80px;

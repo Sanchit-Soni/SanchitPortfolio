@@ -8,12 +8,12 @@ import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 import HTML from "../images/skills/html.svg";
 import CSS from "../images/skills/css.svg";
-import JS from "../images/skills/js.png";
+import JS from "../images/skills/js.svg";
 import RS from "../images/skills/react.svg";
 import Mongo from "../images/skills/mongoDB.svg";
 import Fire from "../images/skills/firee.png";
-import RN from "../images/skills/react-native.png";
-import Git from "../images/skills/git.png";
+import RN from "../images/skills/react-native.svg";
+import Git from "../images/skills/git.svg";
 import node from "../images/skills/nodejs.svg";
 import exp from "../images/skills/express.svg";
 import Cal from "../images/calendar.png";
@@ -243,14 +243,20 @@ const Home = () => {
             </div>
             <div className="skill-col2">
               <img
-                className="skill-icon react"
-                src={RS}
+                className="skill-icon mongo"
+                src={Mongo}
                 alt="icon"
                 lazy="true"
               />
               <img
                 className="skill-icon node"
                 src={node}
+                alt="icon"
+                lazy="true"
+              />
+              <img
+                className="skill-icon react"
+                src={RS}
                 alt="icon"
                 lazy="true"
               />
@@ -273,12 +279,7 @@ const Home = () => {
                 lazy="true"
               />
               <img className="skill-icon js" src={JS} alt="icon" lazy="true" />
-              <img
-                className="skill-icon mongo"
-                src={Mongo}
-                alt="icon"
-                lazy="true"
-              />
+
               <img
                 className="skill-icon firebase"
                 src={Fire}

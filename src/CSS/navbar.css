@@ -12,6 +12,10 @@
   /* border-bottom: 5px solid #fff; */
 }
 
+.logo {
+  height: 70px;
+  width: 70px;
+}
 .nav-container {
   display: flex;
   justify-content: center;

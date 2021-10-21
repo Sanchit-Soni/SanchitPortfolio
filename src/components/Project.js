@@ -13,7 +13,7 @@ import Fade from "react-reveal/Fade";
 //icons
 import HTML from "../images/skills/html.svg";
 import CSS from "../images/skills/css.svg";
-import JS from "../images/skills/js.png";
+import JS from "../images/skills/js.svg";
 import RS from "../images/skills/react.svg";
 import Mongo from "../images/skills/mongoDB.svg";
 import Fire from "../images/skills/firee.png";
