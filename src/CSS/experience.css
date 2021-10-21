@@ -1,0 +1,35 @@
+.exp-container {
+  padding: 10px;
+}
+.explore-text {
+  font-size: 4rem;
+}
+.exp-row {
+  height: 100vh;
+}
+.exp-header {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.exp-timeline {
+  margin-top: 20px;
+}
+.rocket {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .exp-container {
+    padding: 5px;
+  }
+  .explore-text {
+    font-size: 3rem;
+  }
+  .rocket {
+    height: 300px;
+    width: 300px;
+  }
+}
