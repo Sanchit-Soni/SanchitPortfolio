@@ -16,7 +16,7 @@ const Experience = () => {
           <div className="exp-header">
             <center>
               <p>Worked for several startups.</p>
-              <p className="explore-text">Work Experiences</p>
+              <h1 className="explore-text">Work Experiences</h1>
             </center>
           </div>
           <center>

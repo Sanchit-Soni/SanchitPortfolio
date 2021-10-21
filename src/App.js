@@ -38,7 +38,7 @@ function App() {
             <Route exact path="/project/:id" component={EachProject} />
             <Route exact path="/experience" component={Experience} />
             <Route exact path="/contact" component={Contact} />
-            <Route path="*" component={Home} />
+            <Route path="*" component={Loading} />
           </Switch>
         </div>
       </Router>
