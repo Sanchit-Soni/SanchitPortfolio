@@ -212,10 +212,15 @@ const Home = () => {
                       <p>Know More</p>
                     </button>
                   </a>
-
-                  <button className="btn-1 btn-2">
-                    <p>Download Resume</p>
-                  </button>
+                  <a
+                    href="https://drive.google.com/file/d/1JAGassESJxlnazNPAmrf2PQyK3zCz4Yw/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="btn-1 btn-2">
+                      <p>Download Resume</p>
+                    </button>
+                  </a>
                   {/* </Tilt> */}
                 </div>
               </center>
@@ -305,15 +310,21 @@ const Home = () => {
       <Fade>
         <center>
           <div className="works-container">
-            <p>Let's Walk the Talk!</p>
-            <h1>Explore Some of his works</h1>
-            <br></br>
-            <br></br>
-            <Link to="/project">
-              <button className="btnP-1">
-                <p>Click Here</p>
-              </button>
-            </Link>
+            <div className="work-row"></div>
+            <div>
+              <p>Let's Walk the Talk!</p>
+              <h1>Explore Some of his works</h1>
+              <br></br>
+              <br></br>
+              <Link to="/project">
+                <button className="btnP-1">
+                  <p>Click Here</p>
+                </button>
+              </Link>
+            </div>
+            {/* <div>
+              <img className="freelancer" src={Freelancer} alt="dev" />
+            </div> */}
           </div>
         </center>
       </Fade>
@@ -325,7 +336,7 @@ const Home = () => {
               <h1>Let’s grab a cup of coffee.</h1>
             </div>
             <div className="connect-image">
-              <img src={Cal} alt="img" />
+              <img src={Cal} alt="connect" />
             </div>
           </div>
           <center>

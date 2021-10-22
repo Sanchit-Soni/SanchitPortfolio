@@ -90,8 +90,9 @@
   height: 45px;
 }
 .native {
-  height: 80px;
+  height: 70px;
   width: 70px;
+  margin-top: 10px;
 }
 .firebase {
   height: 90px;
@@ -139,6 +140,12 @@
 .works-container {
   margin-top: 150px;
   margin-bottom: 200px;
+}
+
+.freelancer {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
 }
 
 /* sfdsfs */

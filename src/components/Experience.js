@@ -6,7 +6,8 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import Fade from "react-reveal/Fade";
 import "../CSS/experience.css";
-import Launch from "../images/launch.png";
+// import Launch from "../images/launch.png";
+import Startup from "../images/startup-launch.png";
 
 const Experience = () => {
   return (
@@ -21,7 +22,7 @@ const Experience = () => {
           </div>
           <center>
             <div>
-              <img lazy="true" className="rocket" src={Launch} alt="rocket" />
+              <img lazy="true" className="startup" src={Startup} alt="rocket" />
             </div>
           </center>
           <div className="object">

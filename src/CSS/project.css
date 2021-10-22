@@ -165,10 +165,10 @@ section {
 @keyframes MoveUpDown {
   0%,
   100% {
-    bottom: 130px;
+    bottom: 100px;
   }
   50% {
-    bottom: 100px;
+    bottom: 80px;
   }
 }
 .arrow {

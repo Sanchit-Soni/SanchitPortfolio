@@ -11,7 +11,8 @@ import Insta from "../images/instagram.png";
 import mindspace from "../images/mindspace.png";
 import Fade from "react-reveal/Fade";
 //icons
-import HTML from "../images/skills/html.svg";
+// import HTML from "../images/skills/html.svg";
+import HTML5 from "../images/skills/html5.png";
 import CSS from "../images/skills/css.svg";
 import JS from "../images/skills/js.svg";
 import RS from "../images/skills/react.svg";
@@ -81,7 +82,7 @@ const Project = () => {
       name: "Portfolio",
       link: "https://sanchit-soni.github.io/Portfolio-Final/",
       img: Portfolio,
-      icons: [HTML, CSS, JS],
+      icons: [HTML5, CSS, JS],
       gitLink: "https://github.com/Sanchit-Soni/Portfolio-Final",
     },
     {
@@ -89,7 +90,7 @@ const Project = () => {
       name: "Covid19 Tracker",
       link: "https://covid19tracker-cc742.web.app/",
       img: C19tracker,
-      icons: [RS, CSS],
+      icons: [RS, CSS, JS],
       gitLink: "https://github.com/Sanchit-Soni/Covid19-Tracker",
     },
   ];
