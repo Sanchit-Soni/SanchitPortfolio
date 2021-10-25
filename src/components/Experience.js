@@ -21,9 +21,16 @@ const Experience = () => {
             </center>
           </div>
           <center>
-            <div>
-              <img lazy="true" className="startup" src={Startup} alt="rocket" />
-            </div>
+            <Fade>
+              <div>
+                <img
+                  lazy="true"
+                  className="startup"
+                  src={Startup}
+                  alt="rocket"
+                />
+              </div>
+            </Fade>
           </center>
           <div className="object">
             <p>

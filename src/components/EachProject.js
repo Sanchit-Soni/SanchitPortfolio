@@ -52,9 +52,11 @@ const EachProject = (props) => {
             <div className="project-about">
               <h1>Let's talk about the project</h1>
               <p>
-                I built this during my internship with Dezingdia. It simplifies
-                the task of making appointments to consult doctors. Moreover, it
-                lets people buy medicines and get treatments.
+                Lorem ipsum, or lipsum as it is sometimes known, is dummy text
+                used in laying out print, graphic or web designs. The passage is
+                attributed to an unknown ... Lorem ipsum, or lipsum as it is
+                sometimes known, is dummy text used in laying out print, graphic
+                or web designs. The passage is attributed to an unknown ...
               </p>
             </div>
           </center>
