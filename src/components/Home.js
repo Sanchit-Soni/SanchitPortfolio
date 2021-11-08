@@ -307,6 +307,17 @@ const Home = () => {
           </div>
         </div>
       </Fade>
+      {/* work exps */}
+      <Fade>
+        <div className="workex-container">
+          <div className="workex-row">
+            <div>{/* <p>What does he do?</p> */}</div>
+            <div></div>
+          </div>
+        </div>
+      </Fade>
+
+      {/*project container */}
       <Fade>
         <center>
           <div className="works-container">

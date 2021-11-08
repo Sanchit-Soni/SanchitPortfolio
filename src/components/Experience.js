@@ -41,7 +41,7 @@ const Experience = () => {
         <br></br>
         <div className="exp-timeline">
           <center>
-            <h1>Timeline </h1>
+            <h1>Timeline</h1>
             <br></br>
           </center>
           <VerticalTimeline>
@@ -49,55 +49,72 @@ const Experience = () => {
               className="vertical-timeline-element--work"
               contentStyle={{ background: "#8739f9", color: "#fff" }}
               contentArrowStyle={{ borderRight: "7px solid #8739f9" }}
-              date="Feb - present"
+              date="February 2021 - October 2021"
               iconStyle={{ background: "#8739f9", color: "#fff" }}
               // icon={<WorkIcon />}
             >
-              <h4 className="vertical-timeline-element-title">Gyaanbee</h4>
-              <h5 className="vertical-timeline-element-subtitle">
-                Catalyst Quiz Corp
-              </h5>
-              <p>Project</p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="may - june"
-              contentStyle={{ background: "#8739f9", color: "#fff" }}
-              contentArrowStyle={{ borderRight: "7px solid #8739f9" }}
-              iconStyle={{ background: "#8739f9", color: "#fff" }}
-              // icon={<WorkIcon />}
-            >
-              <h4 className="vertical-timeline-element-title">Covid Sarthi</h4>
-              {/* <h4 className="vertical-timeline-element-subtitle"></h4> */}
-              <p>A covid related Website</p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="2008 - 2010"
-              contentStyle={{ background: "#8739f9", color: "#fff" }}
-              contentArrowStyle={{ borderRight: "7px solid #8739f9" }}
-              iconStyle={{ background: "#8739f9", color: "#fff" }}
-              // icon={<WorkIcon />}
-            >
-              <h4 className="vertical-timeline-element-title">
-                Girl Script Summer of Code
-              </h4>
+              <h1 className="vertical-timeline-element-title"> Gyaanbee</h1>
 
-              <p>Open Source Contibution</p>
+              <h5 className="vertical-timeline-element-subtitle">
+                <i>Catalyst Quiz Corp</i>
+              </h5>
+              <p>Worked as a Full Stack Developer (MERN Stack)</p>
+              <p>
+                Developed Gyanbee, an innovative learning platform for
+                inquisitive kids. Key contributions include Frontend and Backend
+                development of the application.
+              </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="may - june"
+              date="May 2021 – June 2021"
+              contentStyle={{ background: "#8739f9", color: "#fff" }}
+              contentArrowStyle={{ borderRight: "7px solid #8739f9" }}
+              iconStyle={{ background: "#8739f9", color: "#fff" }}
+              // icon={<WorkIcon />}
+            >
+              <h1 className="vertical-timeline-element-title">Covid Sarthi</h1>
+              {/* <h4 className="vertical-timeline-element-subtitle"></h4> */}
+              <p>
+                A covid related Website to help you find verified resources
+                related to all COVID needs.
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="March 2021 – May 2021"
+              contentStyle={{ background: "#8739f9", color: "#fff" }}
+              contentArrowStyle={{ borderRight: "7px solid #8739f9" }}
+              iconStyle={{ background: "#8739f9", color: "#fff" }}
+              // icon={<WorkIcon />}
+            >
+              <h1 className="vertical-timeline-element-title">
+                Girl Script Summer of Code
+              </h1>
+              <p> Open Source Contibution</p>
+              <p>
+                Made a number of successful contributions to a wide array of
+                Open-Source projects.
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="March 2020 - July 2020"
               contentStyle={{ background: "#8739f9", color: "#fff" }}
               contentArrowStyle={{ borderRight: "7px solid #8739f9" }}
               iconStyle={{ background: "#8739f9", color: "black" }}
               // icon={<WorkIcon />}
             >
-              <h4 className="vertical-timeline-element-title">
+              <h1 className="vertical-timeline-element-title">
                 Backmarker Sports
-              </h4>
+              </h1>
               {/* <h4 className="vertical-timeline-element-subtitle"></h4> */}
               <p>A Sports Driven Website</p>
+              <p>
+                Successfully worked on a real-time project. Key contributions
+                include design process and frontend development of the
+                application.
+              </p>
             </VerticalTimelineElement>{" "}
             <VerticalTimelineElement
               iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
