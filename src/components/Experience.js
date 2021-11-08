@@ -74,6 +74,9 @@ const Experience = () => {
               // icon={<WorkIcon />}
             >
               <h1 className="vertical-timeline-element-title">Covid Sarthi</h1>
+              <h5 className="vertical-timeline-element-subtitle">
+                <i>Freelance</i>
+              </h5>
               {/* <h4 className="vertical-timeline-element-subtitle"></h4> */}
               <p>
                 A covid related Website to help you find verified resources
@@ -91,7 +94,9 @@ const Experience = () => {
               <h1 className="vertical-timeline-element-title">
                 Girl Script Summer of Code
               </h1>
-              <p> Open Source Contibution</p>
+              <h5 className="vertical-timeline-element-subtitle">
+                <i>Open Source Contribution</i>
+              </h5>
               <p>
                 Made a number of successful contributions to a wide array of
                 Open-Source projects.
@@ -109,7 +114,9 @@ const Experience = () => {
                 Backmarker Sports
               </h1>
               {/* <h4 className="vertical-timeline-element-subtitle"></h4> */}
-              <p>A Sports Driven Website</p>
+              <h5 className="vertical-timeline-element-subtitle">
+                <i>Web Developer Intern</i>
+              </h5>
               <p>
                 Successfully worked on a real-time project. Key contributions
                 include design process and frontend development of the
