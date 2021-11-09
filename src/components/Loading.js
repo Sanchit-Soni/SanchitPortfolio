@@ -11,7 +11,7 @@ class Loading extends Component {
   };
 
   componentDidMount() {
-    this.id = setTimeout(() => this.setState({ redirect: true }), 4500);
+    this.id = setTimeout(() => this.setState({ redirect: true }), 2500);
   }
 
   componentWillUnmount() {

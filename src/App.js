@@ -10,6 +10,7 @@ import React from "react";
 import AnimatedCursor from "react-animated-cursor";
 import EachProject from "./components/EachProject";
 import Loading from "./components/Loading";
+import Footer from "./components/Footer";
 // import CustomCursor from "./CustomCursor";
 // import Sidebar from "./components/Sidebar";
 // import LocomotiveScroll from "locomotive-scroll";
@@ -41,6 +42,7 @@ function App() {
             <Route path="*" component={Loading} />
           </Switch>
         </div>
+        <Footer />
       </Router>
     </div>
   );

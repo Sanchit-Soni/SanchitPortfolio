@@ -126,3 +126,13 @@
     color: #8739f9;
   }
 }
+
+.footer {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.name-link {
+  color: #8739f9;
+  text-decoration: none;
+}
