@@ -9,6 +9,7 @@ import EZNews from "../images/eznews.png";
 import C19tracker from "../images/c19tracker.png";
 import Insta from "../images/instagram.png";
 import mindspace from "../images/mindspace.png";
+import Cv2 from "../images/cv2.png";
 import Fade from "react-reveal/Fade";
 //icons
 // import HTML from "../images/skills/html.svg";
@@ -85,8 +86,18 @@ const Project = () => {
       icons: [HTML5, CSS, JS],
       gitLink: "https://github.com/Sanchit-Soni/Portfolio-Final",
     },
+
     {
       id: 6,
+      name: "Covid19 tracker v2",
+      link: "https://github.com/Sanchit-Soni/Covid19tracker-v2",
+      img: Cv2,
+      icons: [RS, CSS, JS, Fire],
+      gitLink: "https://covid19-tracker-bd2f2.web.app/",
+    },
+
+    {
+      id: 7,
       name: "Covid19 Tracker",
       link: "https://covid19tracker-cc742.web.app/",
       img: C19tracker,
