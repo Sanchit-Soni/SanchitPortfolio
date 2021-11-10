@@ -1,10 +1,5 @@
 import "./App.css";
-import {
-  BrowserRouter as Router,
-  // Switch,
-  Route,
-  HashRouter,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -36,7 +31,7 @@ function App() {
         <Navbar />
 
         <div className="pages">
-          <HashRouter>
+          <Switch>
             <Route exact path="/" component={Loading} />
             <Route exact path="/home" component={Home} />
             <Route exact path="/about" component={About} />
@@ -45,7 +40,7 @@ function App() {
             <Route exact path="/experience" component={Experience} />
             <Route exact path="/contact" component={Contact} />
             <Route path="*" component={Loading} />
-          </HashRouter>
+          </Switch>
         </div>
         <Footer />
       </Router>
