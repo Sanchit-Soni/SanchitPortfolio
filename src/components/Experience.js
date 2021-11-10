@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -10,6 +10,9 @@ import "../CSS/experience.css";
 import Startup from "../images/startup-launch.png";
 
 const Experience = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="exp-container">
       <Fade>

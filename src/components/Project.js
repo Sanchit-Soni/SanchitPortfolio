@@ -90,10 +90,10 @@ const Project = () => {
     {
       id: 6,
       name: "Covid19 tracker v2",
-      link: "https://github.com/Sanchit-Soni/Covid19tracker-v2",
+      link: "https://covid19-tracker-bd2f2.web.app/",
       img: Cv2,
       icons: [RS, CSS, JS, Fire],
-      gitLink: "https://covid19-tracker-bd2f2.web.app/",
+      gitLink: "https://github.com/Sanchit-Soni/Covid19tracker-v2",
     },
 
     {
