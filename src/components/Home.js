@@ -186,7 +186,7 @@ const Home = () => {
             {/* <Tilt className="Tilt cursor-pointer" options={{ max: 25 }}> */}
             <div className="col-name">
               {/* <div className="col-name gradient-border"> */}
-              <p>Who is he?</p>
+              <p>Who Is He?</p>
               <h1>
                 Sanchit Soni
                 {/* <span className="wave">👋</span> */}
