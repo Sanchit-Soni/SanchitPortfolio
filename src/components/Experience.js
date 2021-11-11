@@ -63,9 +63,9 @@ const Experience = () => {
               </h5>
               <p>Worked as a Full Stack Developer (MERN Stack)</p>
               <p>
-                Developed Gyanbee, an innovative learning platform for
-                inquisitive kids. Key contributions include Frontend and Backend
-                development of the application.
+                Developed Gyanbee, which is an innovative learning platform for
+                inquisitive kids with over 2000+ active users. Key contributions
+                include Frontend and Backend development of the application.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -84,6 +84,11 @@ const Experience = () => {
               <p>
                 A covid related Website to help you find verified resources
                 related to all COVID needs.
+              </p>
+              <p>
+                Made this website from scratch for the needy ones. A user can
+                search for verified resources related to Covid needs just by
+                selecting his city.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

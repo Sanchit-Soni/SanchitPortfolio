@@ -44,7 +44,9 @@ const EachProject = (props) => {
             </div>
             <div className="project-col2">
               <Tilt className="Tilt cursor-pointer" options={{ max: 20 }}>
-                <img lazy="true" className="img-card" src={img} alt="sad" />
+                <a href={link} target="_blank" rel="noreferrer">
+                  <img lazy="true" className="img-card" src={img} alt="sad" />
+                </a>
               </Tilt>
             </div>
           </div>
